@@ -1,0 +1,11 @@
+.texto {
+    font-family: 'Santander Headline Rg';
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    &.primary {
+        color: #222222;
+    }
+    &.secondary {
+        color: #ffffff;
+    }
+}

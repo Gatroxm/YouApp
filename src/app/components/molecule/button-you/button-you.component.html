@@ -1,0 +1,6 @@
+<div *ngIf="link !== ''; else elseBlock">
+    <a href="{{link}}" class="btn {{clase}}">{{titulo}}</a>
+</div>
+<ng-template #elseBlock>
+    <button class="btn {{clase}}">{{titulo}}</button>
+</ng-template>
