@@ -54,4 +54,13 @@
             color: #ec0000;
         }
     }
+    &.you-btn-secundary-gray {
+        background-color: #f0f0f0;
+        color: #222222;
+        padding: 0.5rem 2rem;
+        &:hover {
+            background-color: #ffffff;
+            color: #ec0000;
+        }
+    }
 }

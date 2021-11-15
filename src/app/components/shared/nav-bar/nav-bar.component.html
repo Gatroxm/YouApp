@@ -1,0 +1,77 @@
+<div class="d-none d-lg-block d-lg-block">
+    <nav class="navbar navbar-expand-lg navbar-you bg-you">
+        <div class="container">
+            <a class="navbar-brand" href="#">YOU</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">APRENDE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ">CENTRO DE AYUDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <app-button-you titulo='INGRESAR' clase="you-btn-secundary-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"></app-button-you>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">¡Hola! <small>si eres cliente puedes entrar con tu Rut y Clave Digital</small></h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="container-fluid">
+                            <div class="row g-3 align-items-center">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <input type="text" id="inputRut" class="form-control" aria-describedby="ruutdHelpInline" placeholder="Rut">
+                                    </div>
+
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Clave">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group text-center">
+                                        <label class="switch">
+                                            <input type="checkbox">
+                                            <span class="slider round"></span>
+                                        </label> <span class=" recordar">Recordar mi Rut</span>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group text-center">
+                                        <div class="mt-2">
+                                            <app-button-you titulo='Olvidé mi contraseña' clase="you-btn-secundary-link"></app-button-you>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <app-button-you titulo='INGRESAR' clase="you-btn-secundary-gray"></app-button-you>
+                                    <div class="mt-5"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="d-lg-none d-lg-none">
+    menu de el mobile
+</div>
